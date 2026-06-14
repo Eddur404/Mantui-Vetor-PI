@@ -1,1 +1,63 @@
-venv
+# =========================
+# Ambiente virtual Python
+# =========================
+venv/
+.venv/
+env/
+
+# =========================
+# Cache do Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Banco de dados local
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Configurações locais
+# =========================
+instance/
+.flaskenv
+.env
+
+# =========================
+# Node.js / Tailwind
+# =========================
+node_modules/
+
+# =========================
+# Arquivos do sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDEs e editores
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Testes e cobertura
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Builds Python
+# =========================
+dist/
+build/
+*.egg-info/
+
+# =========================
+# Logs
+# =========================
+*.log
