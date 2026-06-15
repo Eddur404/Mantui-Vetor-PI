@@ -10,7 +10,7 @@
 
 <p align="center" >
   <a href="#-sobre-o-projeto">Sobre</a> •
-  <a href="#-Autores">Autores</a>
+  <a href="#-Autores">Autores</a> •
   <a href="#-funcionalidades">Funcionalidades</a> •
   <a href="#-tecnologias">Tecnologias</a> •
   <a href="#-estrutura-do-projeto">Estrutura</a> •
@@ -162,6 +162,7 @@ pip install -r requirements.txt
 
 ```bash
 npm install
+npm install -D tailwindcss@3.4.19 postcss autoprefixer
 ```
 
 ### 5. Executar o projeto
