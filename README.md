@@ -8,14 +8,15 @@
   <em>O Mantuí é um projeto de pesquisa direcionado para o desenvolvimento de uma plataforma web offline-first, voltada à conservação de aves limícolas migratórias.</em>
 </p>
 
-<p align="center">
+<p align="center" >
   <a href="#-sobre-o-projeto">Sobre</a> •
+  <a href="#-Autores">Autores</a>
   <a href="#-funcionalidades">Funcionalidades</a> •
   <a href="#-tecnologias">Tecnologias</a> •
   <a href="#-estrutura-do-projeto">Estrutura</a> •
   <a href="#-como-executar-o-projeto">Execução</a> •
   <a href="#-rotas-ou-páginas">Rotas</a> •
-  <a href="#-Autores">Autores</a>
+  <a href="#-Contato">Contato</a>
 </p>
 
 ---
@@ -33,6 +34,16 @@ Desenvolver uma plataforma acessível, intuitiva e responsiva que otimize o moni
 ### 👥 Público-alvo
 
 Este sistema foi idealizado, inicialmente, para **Pesquisadores da Flyways Brasil**.
+
+---
+
+## 👨‍💻 Autores
+
+| Nome | Função |
+|------|-----------|
+| Augusto Andrei de Melo Maux | Desenvolvedor Frontend e Backend |
+| Eduardo Felipe Silva de Oliveira | Desenvolvedor Frontend e Designer |
+| Pedro Vinícios Martins de Lima | Desenvolvedor Frontend e Designer |
 
 ---
 
@@ -188,10 +199,10 @@ http://127.0.0.1:5000
 
 ---
 
-## 👨‍💻 Autores
+## 📬 Contato
 
-| Nome | Função |
-|------|-----------|
-| Augusto Andrei de Melo Maux | Desenvolvedor Frontend e Backend |
-| Eduardo Felipe Silva de Oliveira | Desenvolvedor Frontend e Designer |
-| Pedro Vinícios Martins de Lima | Desenvolvedor Frontend e Designer |
+Se você tem dúvidas, sugestões ou quer entrar em contato, pode me encontrar por:
+
+- **E-mail(s):** eduardo.felipe1@escolar.ifrn.edu.br | augusto.maux@escolar.ifrn.edu.br | p.vinicios@escolar.ifrn.edu.br
+- **GitHub:** https://github.com/Eddur404
+- **Local:** Natal, Rio Grande do Norte, Brasil
