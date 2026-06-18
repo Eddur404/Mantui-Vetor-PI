@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %} Mapa {% endblock %}
+
+{% block content %}
+
+<section  class="bg-white py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800">
+                Explore os avistamentos
+            </h2>
+
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                Descubra onde espécies foram registradas, acompanhe novos
+                avistamentos e visualize a biodiversidade através do mapa do Mantuí.
+            </p>
+        </div>
+
+        <div class="bg-gray-100 rounded-3xl shadow-xl overflow-hidden">
+
+        
+            <div class="relative h-[450px]">
+
+                <div class="absolute inset-0 flex items-center justify-center bg-[url(https://i.pinimg.com/736x/2d/41/b3/2d41b30ccd9288a95da2deb19b7042c8.jpg)]">
+
+                    <div class="text-center">
+                    
+
+                        <p class="mt-4 text-gray-700 font-medium">
+                            Prévia do mapa interativo
+                        </p>
+                    </div>
+                </div>
+
+                <div class="absolute top-[30%] left-[38%]">
+                    <div class="w-4 h-4 bg-emerald-600 rounded-full animate-ping absolute"></div>
+                    <div class="w-4 h-4 bg-emerald-600 rounded-full"></div>
+                </div>
+
+                <div class="absolute top-[45%] left-[50%]">
+                    <div class="w-4 h-4 bg-sky-600 rounded-full"></div>
+                </div>
+
+                <div class="absolute top-[55%] left-[42%]">
+                    <div class="w-4 h-4 bg-amber-500 rounded-full"></div>
+                </div>
+
+            </div>
+
+            <div class="p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+
+                <div>
+                    <p class="text-2xl font-bold text-gray-800">
+                        142 lugares mapeados
+                    </p>
+
+                    <p class="text-gray-600 mt-2">
+                        Atualizações frequentes com novos registros da comunidade.
+                    </p>
+                </div>
+
+                <a href="#"
+                   class="px-6 py-3 bg-emerald-600 text-white font-semibold rounded-2xl hover:bg-emerald-700 transition">
+                    Explorar mapa
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

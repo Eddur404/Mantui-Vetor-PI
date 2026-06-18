@@ -1,0 +1,66 @@
+
+{% block title %} Mapa {% endblock %}
+
+{% block content %}
+
+<section class="w-full bg-gray-100 py-12 px-6">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-4">
+            O impacto do Mantuí em Números
+        </h2>
+
+        <p class="text-center text-gray-600 mb-12">
+            Números que representam o alcance da nossa comunidade e o compromisso com a biodiversidade.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+            <div class="flex flex-col gap-6">
+                <div class="bg-emerald-600 text-white rounded-3xl p-8 h-44 flex flex-col justify-center items-center shadow-lg">
+                    <span class="text-5xl font-bold">12.450</span>
+                    <span class="mt-2 text-lg">Avistamentos</span>
+                </div>
+
+                <div class="bg-lime-400 text-white rounded-3xl p-8 h-44 flex flex-col justify-center items-center shadow-lg">
+                    <span class="text-5xl font-bold">86</span>
+                    <span class="mt-2 text-lg">Pesquisadores</span>
+                </div>
+            </div>
+
+            <div class="bg-amber-500 text-white rounded-3xl p-10 min-h-[380px] flex flex-col justify-center items-center shadow-xl">
+                <span class="text-7xl font-bold">4.872</span>
+                <span class="mt-4 text-2xl font-semibold">Usuários cadastrados</span>
+
+                <p class="text-center mt-6 text-amber-100">
+                    Uma comunidade crescente unida pelo interesse em conhecer e preservar a fauna brasileira.
+                </p>
+            </div>
+
+            <div class="flex flex-col gap-6">
+                <div class="bg-green-600 text-white rounded-3xl p-8 h-44 flex flex-col justify-center items-center shadow-lg">
+                    <span class="text-5xl font-bold">142</span>
+                    <span class="mt-2 text-lg">Lugares mapeados</span>
+                </div>
+
+                <div class="bg-amber-700 text-white rounded-3xl p-8 h-44 flex flex-col justify-center items-center shadow-lg">
+                    <span class="text-5xl font-bold">18</span>
+                    <span class="mt-2 text-lg">Equipes parceiras</span>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-4">
+            Aves registradas
+        </h2>
+
+        {% for ave in aves %}
+        <li class="">
+            {{ ave }}
+        </li>
+        {% endfor %}
+
+    </div>
+</section>
+
+{% endblock %}
