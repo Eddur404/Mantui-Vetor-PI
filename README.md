@@ -205,5 +205,5 @@ http://127.0.0.1:5000
 Se você tem dúvidas, sugestões ou quer entrar em contato, pode me encontrar por:
 
 - **E-mail(s):** eduardo.felipe1@escolar.ifrn.edu.br | augusto.maux@escolar.ifrn.edu.br | p.vinicios@escolar.ifrn.edu.br
-- **GitHub:** https://github.com/Eddur404
+- **GitHub:** https://github.com/Eddur404 | https://github.com/Augusto-Maux | https://github.com/pedromartinssl
 - **Local:** Natal, Rio Grande do Norte, Brasil
