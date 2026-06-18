@@ -20,7 +20,7 @@ def registrar():
         email = request.form.get('email')
 
 
-        session["usuário"] = nome
+        session["usuario"] = nome
         session["email"] = email
 
 

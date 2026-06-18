@@ -1,5 +1,7 @@
 
-{% block title %} Mapa {% endblock %}
+{% extends 'base.html' %}
+
+{% block title %} Avistamentos {% endblock %}
 
 {% block content %}
 
@@ -49,16 +51,17 @@
             </div>
 
         </div>
+        <div class="my-4 flex flex-col items-center justify-center">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-4">
+                Aves registradas
+            </h2>
 
-        <h2 class="text-4xl font-bold text-center text-gray-800 mb-4">
-            Aves registradas
-        </h2>
-
-        {% for ave in aves %}
-        <li class="">
-            {{ ave }}
-        </li>
-        {% endfor %}
+            {% for ave in aves %}
+            <li class="">
+                {{ ave }}
+            </li>
+            {% endfor %}
+        </div>
 
     </div>
 </section>

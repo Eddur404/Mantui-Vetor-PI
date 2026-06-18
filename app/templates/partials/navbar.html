@@ -4,15 +4,15 @@
 
 <header class="fixed top-6 left-0 w-full z-50">
   <nav class="mx-auto max-w-3xl px-6 py-3 flex items-center justify-between bg-olive-950 text-amber-50 font-medium rounded-full bg-black">
-    <div>
+    <a href="{{ url_for('main.index')}}">
       <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo Mantuí" height="60px" width="120px">
-    </div>
+    </a>
   <ul class="flex gap-6 justify-between">
-    <li><a href="#Sobre" class="text-gray-300 transition-colors duration-300 hover:text-amber-500">Sobre</a></li>
-    <li><a href="#Numeros" class="text-gray-300 transition-colors duration-300 hover:text-amber-500">Números</a></li>
-    <li><a href="#Mapa" class="text-gray-300 transition-colors duration-300 hover:text-amber-500">Mapa</a></li>
+    <li><a href="{{ url_for('main.sobre') }}" class="text-gray-300 transition-colors duration-300 hover:text-amber-500">Sobre</a></li>
+    <li><a href="{{ url_for('main.avistamentos') }}" class="text-gray-300 transition-colors duration-300 hover:text-amber-500">Avistamentos</a></li>
+    <li><a href="{{ url_for('main.mapa') }}" class="text-gray-300 transition-colors duration-300 hover:text-amber-500">Mapa</a></li>
   </ul>
-  <button class="bg-lime-600 px-8 py-2 rounded-full transition-all duration-300 hover:bg-lime-800 hover:scale-105"><a href="">Entrar</a></button>
+  <button href="{{ url_for('auth.login') }}" class="bg-lime-600 px-8 py-2 rounded-full transition-all duration-300 hover:bg-lime-800 hover:scale-105"><a href="{{ url_for('auth.login')}}">Entrar</a></button>
 </nav>
 </header>
   
@@ -26,10 +26,10 @@
       <p class="mt-4 text-lg text-gray-200 md:text-xl">
         Da observação à conscientização, o Mantuí apresenta a riqueza da vida selvagem brasileira e mostra por que proteger cada espécie é proteger o futuro dos nossos ecossistemas.
       </p>
-      <a href="#" class="mt-8 inline-block rounded-lg border-2 border-white mr-4 px-8 py-3 font-semibold text-white transition hover:bg-white hover:text-black">
+      <a href="{{ url_for('auth.login') }}" class="mt-8 inline-block rounded-lg border-2 border-white mr-4 px-8 py-3 font-semibold text-white transition hover:bg-white hover:text-black">
         Login
       </a>
-       <a href="#" class="mt-8 inline-block rounded-lg bg-lime-600 px-8 py-3 font-semibold text-white transition hover:bg-amber-700">
+       <a href="{{ url_for('auth.registrar') }}" class="mt-8 inline-block rounded-lg bg-lime-600 px-8 py-3 font-semibold text-white transition hover:bg-amber-700">
         Cadastre-se
       </a>
     </div>

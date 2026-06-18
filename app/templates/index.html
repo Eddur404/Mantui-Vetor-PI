@@ -1,10 +1,28 @@
 {% extends "base.html" %}
 
-{% block title %}Teste Mantuí{% endblock %}
+{% block title %} Mantuí{% endblock %}
 
 {% block content %}
 
+{% if session.get("usuario") %}
+    <div class="flex flex-col justify-center items-center">
+        <h2>Bem-Vindo! Você está Logado</h2>
 
+        <a href="{{ url_for('auth.logout') }}">Sair</a>
+    </div>
+
+{% else %}
+    <div class="flex flex-col justify-center items-center">
+        <h2>Você não está logado</h2>
+        <div class="flex gap-6">
+            <a href="{{ url_for('auth.login') }}">Entrar</a> 
+            <a href="{{ url_for('auth.registrar') }}">Cadastro</a> 
+        </div>
+    </div>
+{% endif %}
+
+
+<!-- 
 <section id="Sobre" class="min-h-screen w-full p-10">
     <h2 class="text-3xl text-lime-900 font-bold text-center mb-10">
         Sobre o Nosso Trabalho
@@ -141,7 +159,7 @@
         </div>
 
     </div>
-</section>
+</section> -->
 
 
 <!-- <div class="flex min-h-[80vh] items-center justify-center">
