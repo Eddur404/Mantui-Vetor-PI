@@ -170,13 +170,13 @@ npm install -D tailwindcss@3.4.19 postcss autoprefixer
 #### Terminal 1
 
 ```bash
-python run.py
+npm run tw:watch
 ```
 
 #### Terminal 2
 
 ```bash
-npm run tw:watch
+python run.py
 ```
 
 ### 6. Acessar a aplicação
@@ -195,7 +195,7 @@ http://127.0.0.1:5000
 |------|-----------|
 | `/` | [Página inicial - Landing] |
 | `/login` | [Página de autenticação] |
-| `/cadastro` | [Página de cadastro, se não existir login existir] |
+| `/cadastro` | [Página de cadastro, se não existir login] |
 | `/home` | [Área principal do sistema] |
 
 ---
