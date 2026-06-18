@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "description": "- Augusto Andrei de Melo Maux\r - Eduardo Felipe Silva de Oliveira\r - Pedro Vinícios Martins de Lima",
   "main": "index.js",
-"scripts": {
-  "tw:watch": "npx tailwindcss -i ./app/static/css/input.css -o ./app/static/css/main.css --watch",
-  "tw:build": "npx tailwindcss -i ./app/static/css/input.css -o ./app/static/css/main.css",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
+  "scripts": {
+    "tw:watch": "npx tailwindcss -i ./app/static/css/input.css -o ./app/static/css/main.css --watch",
+    "tw:build": "npx tailwindcss -i ./app/static/css/input.css -o ./app/static/css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
     "tailwindcss": "^3.4.19"
   }
 }

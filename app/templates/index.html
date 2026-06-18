@@ -3,7 +3,148 @@
 {% block title %}Teste Mantuí{% endblock %}
 
 {% block content %}
-<div class="flex min-h-[80vh] items-center justify-center">
+
+
+<section id="Sobre" class="min-h-screen w-full p-10">
+    <h2 class="text-3xl text-lime-900 font-bold text-center mb-10">
+        Sobre o Nosso Trabalho
+    </h2>
+
+    <div class="max-w-4xl mx-auto flex flex-col items-center text-center gap-6">
+        <p class="text-gray-700 leading-relaxed">
+            Somos o Mantuí: um time apaixonado por tecnologia e design que transforma ideias em experiências digitais reais. Atuamos com desenvolvimento front-end, UX/UI e criação de conteúdos digitais, sempre buscando soluções claras, funcionais e esteticamente refinadas. Cada projeto é tratado com cuidado, conversa aberta e foco no que realmente importa para quem usa.
+        </p>
+
+        <p class="text-gray-700 leading-relaxed">
+            Nosso trabalho nasce da combinação entre técnica sólida e sensibilidade criativa. Valorizamos código bem feito, interfaces pensadas para pessoas e arte digital com identidade. Aqui, você encontra parceria de verdade: desde a primeira conversa até o lançamento, acompanhamos cada passo para entregar resultados que fazem sentido — simples, humanos e eficazes.
+        </p>
+
+        <button class="mt-4 px-6 py-3 bg-amber-600 text-amber-100 font-bold rounded-2xl hover:bg-amber-700 transition">
+            Linha do tempo
+        </button>
+    </div>
+</section>
+
+<section id="Numeros" class="w-full bg-gray-100 py-12 px-6">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-4">
+            O impacto do Mantuí em Números
+        </h2>
+
+        <p class="text-center text-gray-600 mb-12">
+            Números que representam o alcance da nossa comunidade e o compromisso com a biodiversidade.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+            <div class="flex flex-col gap-6">
+                <div class="bg-emerald-600 text-white rounded-3xl p-8 h-44 flex flex-col justify-center items-center shadow-lg">
+                    <span class="text-5xl font-bold">12.450</span>
+                    <span class="mt-2 text-lg">Avistamentos</span>
+                </div>
+
+                <div class="bg-lime-400 text-white rounded-3xl p-8 h-44 flex flex-col justify-center items-center shadow-lg">
+                    <span class="text-5xl font-bold">86</span>
+                    <span class="mt-2 text-lg">Pesquisadores</span>
+                </div>
+            </div>
+
+            <div class="bg-amber-500 text-white rounded-3xl p-10 min-h-[380px] flex flex-col justify-center items-center shadow-xl">
+                <span class="text-7xl font-bold">4.872</span>
+                <span class="mt-4 text-2xl font-semibold">Usuários cadastrados</span>
+
+                <p class="text-center mt-6 text-amber-100">
+                    Uma comunidade crescente unida pelo interesse em conhecer e preservar a fauna brasileira.
+                </p>
+            </div>
+
+            <div class="flex flex-col gap-6">
+                <div class="bg-green-600 text-white rounded-3xl p-8 h-44 flex flex-col justify-center items-center shadow-lg">
+                    <span class="text-5xl font-bold">142</span>
+                    <span class="mt-2 text-lg">Lugares mapeados</span>
+                </div>
+
+                <div class="bg-amber-700 text-white rounded-3xl p-8 h-44 flex flex-col justify-center items-center shadow-lg">
+                    <span class="text-5xl font-bold">18</span>
+                    <span class="mt-2 text-lg">Equipes parceiras</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="Mapa" class="bg-white py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800">
+                Explore os avistamentos
+            </h2>
+
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                Descubra onde espécies foram registradas, acompanhe novos
+                avistamentos e visualize a biodiversidade através do mapa do Mantuí.
+            </p>
+        </div>
+
+        <div class="bg-gray-100 rounded-3xl shadow-xl overflow-hidden">
+
+        
+            <div class="relative h-[450px]">
+
+                <div class="absolute inset-0 flex items-center justify-center bg-[url(https://i.pinimg.com/736x/2d/41/b3/2d41b30ccd9288a95da2deb19b7042c8.jpg)]">
+
+                    <div class="text-center">
+                    
+
+                        <p class="mt-4 text-gray-700 font-medium">
+                            Prévia do mapa interativo
+                        </p>
+                    </div>
+                </div>
+
+                <div class="absolute top-[30%] left-[38%]">
+                    <div class="w-4 h-4 bg-emerald-600 rounded-full animate-ping absolute"></div>
+                    <div class="w-4 h-4 bg-emerald-600 rounded-full"></div>
+                </div>
+
+                <div class="absolute top-[45%] left-[50%]">
+                    <div class="w-4 h-4 bg-sky-600 rounded-full"></div>
+                </div>
+
+                <div class="absolute top-[55%] left-[42%]">
+                    <div class="w-4 h-4 bg-amber-500 rounded-full"></div>
+                </div>
+
+            </div>
+
+            <div class="p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+
+                <div>
+                    <p class="text-2xl font-bold text-gray-800">
+                        142 lugares mapeados
+                    </p>
+
+                    <p class="text-gray-600 mt-2">
+                        Atualizações frequentes com novos registros da comunidade.
+                    </p>
+                </div>
+
+                <a href="#"
+                   class="px-6 py-3 bg-emerald-600 text-white font-semibold rounded-2xl hover:bg-emerald-700 transition">
+                    Explorar mapa
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- <div class="flex min-h-[80vh] items-center justify-center">
     <div class="text-center">
         <h1 class="text-5xl font-bold text-gray-900">
             Boas Vindas ao Mantuí 🐦
@@ -30,6 +171,6 @@
         {% endif %}
 
     </div>
-</div>
+</div> -->
 
 {% endblock %}
